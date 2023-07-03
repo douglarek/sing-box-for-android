@@ -8,7 +8,7 @@ class HTTPClient : Closeable {
 
     companion object {
         val userAgent by lazy {
-            var userAgent = "SFA/"
+            var userAgent = "SBA/"
             userAgent += BuildConfig.VERSION_NAME
             userAgent += " ("
             userAgent += BuildConfig.VERSION_CODE

@@ -78,7 +78,7 @@ class SettingsFragment : Fragment() {
             it.context.launchCustomTab("https://community.sagernet.org/")
         }
         binding.documentationButton.setOnClickListener {
-            it.context.launchCustomTab("http://sing-box.sagernet.org/installation/clients/sfa/")
+            it.context.launchCustomTab("https://github.com/douglarek/sing-box-for-android")
         }
     }
 

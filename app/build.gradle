@@ -48,6 +48,14 @@ android {
         }
     }
 
+    flavorDimensions("default")
+    productFlavors {
+        googleplay {
+            applicationId = "com.github.douglarek.sba"
+            resValue "string", "app_name", "SBA"
+        }
+    }
+
     splits {
         abi {
             enable true

@@ -77,7 +77,7 @@ class MainActivity : AbstractActivity(), ServiceConnection.Callback, DistributeL
         binding.navView.setupWithNavController(navController)
 
         reconnect()
-        startAnalysis()
+        // startAnalysis()
     }
 
     fun reconnect() {

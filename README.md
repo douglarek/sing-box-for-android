@@ -1,32 +1,5 @@
-# SFA
+# SBA
 
-Experimental Android client for sing-box, the universal proxy platform.
+A forked version of sing-box for android aimed at distribution on Google Play.
 
-## Documentation
-
-https://sing-box.sagernet.org/installation/clients/sfa/
-
-## License
-
-```
-Copyright (C) 2022 by nekohasekai <contact-sagernet@sekai.icu>
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program. If not, see <http://www.gnu.org/licenses/>.
-
-In addition, no derivative work may use the name or imply association
-with this application without prior consent.
-```
-
-Under the license, that forks of the app are not allowed to be listed on F-Droid or other app stores
-under the original name.
+<a href="https://play.google.com/store/apps/details?id=com.github.douglarek.sba"><img width="200px" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"/></a>
