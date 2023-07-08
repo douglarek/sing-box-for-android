@@ -17,7 +17,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "io.nekohasekai.sfa"
+        applicationId "com.github.douglarek.sba"
         minSdk 21
         targetSdk 33
         versionCode getProps("VERSION_CODE").toInteger()
@@ -45,14 +45,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.release
             buildConfigField("String", "APPCENTER_SECRET", "\"" + getProps("APPCENTER_SECRET") + "\"")
-        }
-    }
-
-    flavorDimensions("default")
-    productFlavors {
-        googleplay {
-            applicationId = "com.github.douglarek.sba"
-            resValue "string", "app_name", "SBA"
         }
     }
 
