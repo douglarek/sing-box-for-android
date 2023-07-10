@@ -22,6 +22,7 @@ android {
         targetSdk 33
         versionCode getProps("VERSION_CODE").toInteger()
         versionName getProps("VERSION_NAME")
+        setProperty("archivesBaseName", applicationId + "-v" + versionCode + "(" + versionName + ")")
     }
 
     signingConfigs {
