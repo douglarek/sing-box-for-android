@@ -2,8 +2,8 @@ name: build_bundle
 
 on:
   push:
-    branches:
-      - 'play'
+    tags:
+      - '*'
     workflow_dispatch:
 
 jobs:

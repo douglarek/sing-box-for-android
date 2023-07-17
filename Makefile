@@ -1,4 +1,4 @@
-SING-BOX-TAG = 'v1.3.1-beta.3'
+SING-BOX-TAG = 'dev-next'
 VERSION_CODE = '103013'
 VERSION_NAME = '1.3.1-beta3'
 
