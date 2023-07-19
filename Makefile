@@ -1,6 +1,6 @@
-SING-BOX-TAG = 'dev-next'
-VERSION_CODE = '103013'
-VERSION_NAME = '1.3.1-beta3'
+SING-BOX-TAG = 'v1.3.1-rc.1'
+VERSION_CODE = '103014'
+VERSION_NAME = '1.3.1-rc1'
 
 .PHONY: build
 
