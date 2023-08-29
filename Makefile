@@ -1,13 +1,13 @@
-SING-BOX-TAG = 'v1.4.0-rc.3'
-VERSION_CODE = '104009'
-VERSION_NAME = 'v1.4.0-rc3'
+SING-BOX-TAG = 'v1.4.0'
+VERSION_CODE = '104010'
+VERSION_NAME = 'v1.4.0'
 
 .PHONY: build
 
 build:
 	git clone -b $(SING-BOX-TAG) https://github.com/SagerNet/sing-box.git sb-tmp
 	$(MAKE) -C sb-tmp lib_install
-	$(MAKE) -C sb-tmp android
+	$(MAKE) -C sb-tmp lib_android
 	mkdir app/libs || true
 	cp sb-tmp/libbox.aar app/libs/
 	rm -rf sb-tmp
