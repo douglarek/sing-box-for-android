@@ -1,6 +1,6 @@
-SING-BOX-TAG = 'v1.5.0-beta.8'
-VERSION_CODE = '105008'
-VERSION_NAME = 'v1.5.0-beta8'
+SING-BOX-TAG = 'v1.5.0-beta.11'
+VERSION_CODE = '105011'
+VERSION_NAME = 'v1.5.0-beta11'
 
 .PHONY: build
 
